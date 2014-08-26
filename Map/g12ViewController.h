@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface g12ViewController : UIViewController
+@interface g12ViewController : UIViewController <MKMapViewDelegate>
+
+@property (nonatomic) IBOutlet MKMapView *mapView;
+- (IBAction)generateShadick:(UIButton *)sender;
 
 @end

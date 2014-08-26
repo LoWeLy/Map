@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1012156119AD132B008CE929 /* Sha.png in Resources */ = {isa = PBXBuildFile; fileRef = 1012156019AD132B008CE929 /* Sha.png */; };
 		109170C419ACD0C500151268 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 109170C319ACD0C500151268 /* Foundation.framework */; };
 		109170C619ACD0C500151268 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 109170C519ACD0C500151268 /* CoreGraphics.framework */; };
 		109170C819ACD0C500151268 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 109170C719ACD0C500151268 /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		109170E519ACD0C500151268 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 109170C719ACD0C500151268 /* UIKit.framework */; };
 		109170ED19ACD0C500151268 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 109170EB19ACD0C500151268 /* InfoPlist.strings */; };
 		109170EF19ACD0C500151268 /* MapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 109170EE19ACD0C500151268 /* MapTests.m */; };
+		109170F919ACD2AC00151268 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 109170F819ACD2AC00151268 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1012156019AD132B008CE929 /* Sha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sha.png; sourceTree = "<group>"; };
 		109170C019ACD0C500151268 /* Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Map.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		109170C319ACD0C500151268 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		109170C519ACD0C500151268 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +56,7 @@
 		109170EA19ACD0C500151268 /* MapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapTests-Info.plist"; sourceTree = "<group>"; };
 		109170EC19ACD0C500151268 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		109170EE19ACD0C500151268 /* MapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapTests.m; sourceTree = "<group>"; };
+		109170F819ACD2AC00151268 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			files = (
 				109170C619ACD0C500151268 /* CoreGraphics.framework in Frameworks */,
 				109170C819ACD0C500151268 /* UIKit.framework in Frameworks */,
+				109170F919ACD2AC00151268 /* MapKit.framework in Frameworks */,
 				109170C419ACD0C500151268 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +106,7 @@
 		109170C219ACD0C500151268 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				109170F819ACD2AC00151268 /* MapKit.framework */,
 				109170C319ACD0C500151268 /* Foundation.framework */,
 				109170C519ACD0C500151268 /* CoreGraphics.framework */,
 				109170C719ACD0C500151268 /* UIKit.framework */,
@@ -117,6 +123,7 @@
 				109170D519ACD0C500151268 /* Main.storyboard */,
 				109170D819ACD0C500151268 /* g12ViewController.h */,
 				109170D919ACD0C500151268 /* g12ViewController.m */,
+				1012156019AD132B008CE929 /* Sha.png */,
 				109170DB19ACD0C500151268 /* Images.xcassets */,
 				109170CA19ACD0C500151268 /* Supporting Files */,
 			);
@@ -230,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				109170DC19ACD0C500151268 /* Images.xcassets in Resources */,
+				1012156119AD132B008CE929 /* Sha.png in Resources */,
 				109170CE19ACD0C500151268 /* InfoPlist.strings in Resources */,
 				109170D719ACD0C500151268 /* Main.storyboard in Resources */,
 			);
@@ -457,6 +465,7 @@
 				109170F419ACD0C500151268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		109170F519ACD0C500151268 /* Build configuration list for PBXNativeTarget "MapTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +474,7 @@
 				109170F719ACD0C500151268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
